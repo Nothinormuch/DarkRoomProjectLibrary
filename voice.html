@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twilio IVR</title>
+</head>
+<body>
+<Response>
+    <Gather input="dtmf" numDigits="1" action="http://your-domain.com/gather.html">
+        <Say>For sales, press 1. For support, press 2.</Say>
+    </Gather>
+    <Redirect>http://your-domain.com/voice.html</Redirect>
+</Response>
+</body>
+</html>
