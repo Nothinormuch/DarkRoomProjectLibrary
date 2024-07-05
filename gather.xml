@@ -6,5 +6,5 @@
     </Say>
     <%= (Digits == '1') ? '<Dial>+1234567890</Dial>' : '' %>
     <%= (Digits == '2') ? '<Dial>+0987654321</Dial>' : '' %>
-    <%= (!['1', '2'].includes(Digits)) ? '<Redirect>http://your-domain.com/voice.xml</Redirect>' : '' %>
+    <%= (!['1', '2'].includes(Digits)) ? '<Redirect>https://nothinormuch.github.io/DarkRoom_Project_Library/voice.xml</Redirect>' : '' %>
 </Response>

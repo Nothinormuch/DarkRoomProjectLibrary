@@ -1,6 +1,6 @@
 <Response>
-    <Gather input="dtmf" numDigits="1" action="http://your-domain.com/gather.xml">
+    <Gather input="dtmf" numDigits="1" action="https://nothinormuch.github.io/DarkRoom_Project_Library/gather.xml">
         <Say>For sales, press 1. For support, press 2.</Say>
     </Gather>
-    <Redirect>http://your-domain.com/voice.xml</Redirect>
+    <Redirect>https://nothinormuch.github.io/DarkRoom_Project_Library/voice.xml</Redirect>
 </Response>
